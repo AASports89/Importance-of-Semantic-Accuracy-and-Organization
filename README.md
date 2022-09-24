@@ -1,23 +1,30 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# **Organize HTML Semantics** [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](#isc-license)
 
-## My Task
+## Overview 
+---
+Improving the organization of provided code, ensures a smooth operating webpage and/or application.
 
-This week is on-the-job Challenge, a ticket&mdash;meaning that there will starter code that needs to be checked and modified.
-
-**Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+**Refactoring** existing code to meet a certain set of standards or to implement a new technology will the technique used to improve the **Horiseon** webpage.
 
 > **Important**: When working with someone else's code, you should adhere to the **Scout Rule**&mdash;always leave the code a little cleaner than when you found it.
 
-An increasingly important consideration for businesses, web **accessibility** ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. Accessibility is good for business&mdash;for one thing, accessible sites rank higher in search engines like Google. It also helps companies avoid litigation, which might arise if people with disabilities can't access a website.
+The main goal of **Refractoring** is too improve the accessibility of the **Horiseon** webpage for all users across the board. Specifically, the utilization of semantics for the ```HTML``` and ```CSS``` source codes will improve the navigation capability of the website for all users.
 
-Accessibility can include complex requirements, but your tech lead has given you a small list of specific criteria for this project. These criteria are documented in the Acceptance Criteria section.
+## Table of Contents
+---
 
-To impress clients, you should always exceed expectations and improve the codebase for long-term sustainability. For example, check that all links are functioning correctly. You can also increase the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Once the necessary adjustments and changes have been made to the code, there is an Acceptance Criteria used to evaluate the finished product.
+  * [Overview](#overview)
+  * [Acceptance Criteria](#acceptance-criteria)
+  * [Mock Up](#mock-up)
+  * [Deployed Webpage](#deployed-webpage)
+  * [GitHUB Repository](#github-repository)
+  * [Evaluation Guideline](#evaluation-guideline)
+  * [Questions](#questions)
+  * [License](#isc-license)
 
 ## Acceptance Criteria
-
+---
+> **Note:** The following criteria is used to determine if the standards set for the **Horiseon** webpage have been met:
 ```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -33,26 +40,32 @@ THEN I find a concise, descriptive title
 ```
 
 ## Mock-Up
+---
+> **Note:** The following image shows the web application's appearance and functionality to be used as a standard:
 
-The following image shows the web application's appearance and functionality to be used as a standard:
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/horiseon.gif)
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+### Header
+----
+<img src="./assets/images/header.png">
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. 
+### Main Content
+----
+<img src="./assets/images/body.png">
 
-Lastly, there is a guideline for requirements to be used to perform a more detailed evaluation of the finished product below.
+## Deployed Webpage
+---
+> https://aasports89.github.io/organize-HTML-semantics/
 
-## Grading Requirements
+## GitHUB Repository
+---
+> https://github.com/AASports89/organize-HTML-semantics
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+> **Important**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. 
+
+## Evaluation Guideline
+---
+> **Note**: The following evaluation guideline is used to determine if the **Horiseon** website meets the accessibility requirements:
 
 This Challenge is graded based on the following criteria: 
 
@@ -92,10 +105,17 @@ This Challenge is graded based on the following criteria:
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
-## Review
+## Questions
+---
+> **Note:** For any troubleshooting and/or functionality related questions, please visit my GitHUB @https://github.com/AASports89/organize-HTML-semantics
 
-You are required to submit the following for review:
+## **ISC License**
+---
+**Copyright © 2022 - AASports89**
 
-* The URL of the deployed application.
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+---
