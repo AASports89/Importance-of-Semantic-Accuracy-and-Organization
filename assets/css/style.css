@@ -88,6 +88,7 @@ section {
         rgba(93, 157, 252, 0.914) 0%,
         rgb(17, 0, 203) 100%);
     border: 1.5px solid black;
+    text-align: center;
 }
 
 /* USED 'h2' FOR PARENT */
@@ -126,6 +127,7 @@ aside {
         rgba(93, 157, 252, 0.914) 0%,
         rgb(17, 0, 203) 100%);
     border: 1.5px solid black;
+    text-align: center;
 }
 
 /* USED 'article' VS DIV CLASS */
