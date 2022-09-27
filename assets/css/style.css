@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(234, 235, 243, 0.974) 0%, rgb(145, 149, 153) 100%);
+    background-image: linear-gradient(rgba(91, 92, 96, 0.974) 0%, rgb(229, 236, 239) 100%);
 }
 
 /* USED 'header' AS PARENT */
@@ -16,7 +16,7 @@ header {
         rgba(93, 157, 252, 0.914) 0%,
         rgb(17, 0, 203) 100%);
     color: #ffffff;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid whitesmoke;
 }
 
 /* USED 'h1' AS PARENT */
@@ -28,6 +28,10 @@ h1 {
 /* CREATED AN ID TO USE "#" TO SELECT SPECIFIC ELEMENT */
 #seo {
     color: rgb(174, 180, 187);
+}
+
+#seo:hover {
+    color: whitesmoke;
 }
 
 /* USED 'header' AS PARENT */
@@ -50,6 +54,10 @@ li {
     margin-left: 25px;
 }
 
+li a:hover {
+    color:rgb(174, 180, 187);
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -67,7 +75,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px whitesmoke;
 }
 
 /* USED 'content' AS PARENT */
@@ -87,8 +95,13 @@ section {
     background-image: linear-gradient(
         rgba(93, 157, 252, 0.914) 0%,
         rgb(17, 0, 203) 100%);
-    border: 1.5px solid black;
+    border: 1.5px solid whitesmoke;
     text-align: center;
+}
+
+section:hover {
+    background-image: linear-gradient(rgba(234, 235, 243, 0.974) 0%, rgb(145, 149, 153) 100%);
+    border: 1.5px solid black;
 }
 
 /* USED 'h2' FOR PARENT */
@@ -111,7 +124,11 @@ h2 {
 /* USED 'section img' VS 3-SEPARATE IMG CLASSES */
 section img {
     max-height: 200px;
-    border: 1px solid #ffffff;
+    border: 1.5px solid black;
+}
+
+section img:hover {
+    border: solid 1.5px whitesmoke;
 }
 
 /* CHANGED DIV TO 'aside' */
@@ -126,7 +143,7 @@ aside {
     background-image: linear-gradient(
         rgba(93, 157, 252, 0.914) 0%,
         rgb(17, 0, 203) 100%);
-    border: 1.5px solid black;
+    border: 1.5px solid whitesmoke;
     text-align: center;
 }
 
@@ -152,7 +169,7 @@ aside img {
 
 /* CREATED A FOOTER */
 footer {
-    padding: 30px;
+    padding: 2%;
     font-size: 20px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
